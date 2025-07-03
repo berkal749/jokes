@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+
+font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+
+}
+body{
+
+
+
+
+    background-color: hsl(0, 0%, 5%);
+    
+
+}
+
+
+.jokes-container{
+    border-radius: 6px;
+
+   text-align: center;
+    height: 300px;
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    background-color: bisque;
+    margin: 0 auto ;
+    margin-top: 100px;
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+background-color: hsl(0, 0%, 10%);
+
+
+
+}
+.title{
+  
+color: hsl(0, 0%, 95%);
+font-size: xx-large;
+
+
+
+
+}
+.display{
+    color: hsl(48, 59%, 77%);
+font-size: large;
+
+
+
+
+
+}
+.button{
+    color: hsl(0, 0%, 80%);
+    width:70px;
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 6px 6px 6px 6px;
+
+
+}
+.button:hover{
+
+   background-color: hsl(0, 0%, 80%);
+   color: hsl(0, 0%, 20%);
+
+
+
+}
+.button:active{
+
+   
+   color: hsl(0, 0%, 60%);
+
+
+
+}
