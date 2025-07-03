@@ -1,7 +1,9 @@
 var button = document.getElementById("b");
 button.addEventListener("click", getData);
+var oke = document.getElementById("joke");
 async function getData() {
   const url = "https://icanhazdadjoke.com/";
+   oke.innerText = "loading...";
   try {
     const response = await fetch(url, {
       method: "GET",
@@ -14,7 +16,8 @@ async function getData() {
     }
     const json = await response.json();
     const joke = json.joke;
-    var oke = document.getElementById("joke");
+    
+   
     oke.innerText = joke;
   } catch (error) {
     return error;
